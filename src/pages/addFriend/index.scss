@@ -1,0 +1,27 @@
+.imgWrap {
+    position: relative;
+    image {
+        display: block;
+        width: 100%;
+    }
+    .codeDesc {
+        position: absolute;
+        z-index: 2;
+        bottom: 110px;
+        text-align: center;
+        width: 80%;
+        left: 10%;
+        color: #888;
+    }
+    .qrCode {
+        position: absolute;
+        z-index: 2;
+        top: 150px;
+        width: 100%;
+        image {
+            width: 450px;
+            height: 450px;
+            margin: auto;
+        }
+    }
+}

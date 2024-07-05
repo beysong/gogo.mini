@@ -1,0 +1,12 @@
+{
+  "extAppid": "wx16e8b11f0b15b398",
+  "extEnable": true,
+  "recompile":true,
+  "ext": {
+    "appId": "wx16e8b11f0b15b398",
+    "custom_config": {
+      "sgname": "店长",
+      "brandid": 739
+    }
+  }
+}

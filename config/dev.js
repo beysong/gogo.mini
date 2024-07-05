@@ -1,9 +1,13 @@
-module.exports = {
-  env: {
-    NODE_ENV: '"development"'
+export default {
+   logger: {
+    quiet: false,
+    stats: true
   },
-  defineConstants: {
+  mini: {
+    // webpackChain (chain, webpack) {
+    //   chain.plugin('analyzer')
+    //     .use(require('webpack-bundle-analyzer').BundleAnalyzerPlugin, [])
+    // }
   },
-  mini: {},
   h5: {}
 }

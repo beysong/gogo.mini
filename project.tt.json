@@ -1,6 +1,6 @@
 {
   "miniprogramRoot": "./",
-  "projectname": "EZR.FE.JdCrmMulti.Mini",
+  "projectname": "taro-demo",
   "appid": "testAppId",
   "setting": {
     "es6": false,
