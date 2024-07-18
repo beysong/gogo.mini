@@ -10,7 +10,7 @@
     "framework": "React"
   },
   "scripts": {
-    "build:weapp": "taro build --type weapp",
+    "build:weapp": "taro build --type weapp --mode tp",
     "build:weapp.q1": "taro build --type weapp --mode q1",
     "build:weapp.tp": "taro build --type weapp --mode tp",
     "build:swan": "taro build --type swan",

@@ -25,15 +25,15 @@ export default defineConfig(async (merge, { command, mode }) => {
       patterns: [
         {
           from: `src/ext.${process.env.TARO_ENV}.json`,
-          to: `dist/${process.env.TARO_ENV}/ext.json`,
+          to: `dist/ext.json`,
         },
         {
           from: 'src/sitemap.json',
-          to: `dist/${process.env.TARO_ENV}/sitemap.json`,
+          to: `dist/sitemap.json`,
         },
         {
           from: 'project.private.config.json',
-          to: `dist/${process.env.TARO_ENV}/project.private.config.json`,
+          to: `dist/project.private.config.json`,
         },
       ],
       options: {

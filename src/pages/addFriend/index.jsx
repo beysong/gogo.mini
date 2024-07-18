@@ -71,7 +71,7 @@ export default function Index() {
       <View className='imgWrap'>
         <Image src={pageData?.BgImg1} mode='widthFix' />
         <View className='codeDesc'>{pageData?.TipContent}</View>
-        <View className='qrCode'><Image showMenuByLongpress src={pageData?.BgImg} mode='widthFix' /></View>
+        <View className='qrCode'><Image showMenuByLongpress src={pageData?.WxWorkUserQrCode} mode='widthFix' /></View>
       </View>
       <View className='imgWrap'>
         <Image src={pageData?.BgImg2} mode='widthFix' />
