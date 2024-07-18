@@ -1,5 +1,4 @@
 
-console.log('process.env.TARO_APP_BUILD_TYPE', process.env.TARO_APP_BUILD_TYPE)
 const typeObj = {
     DEV: {
         API_HOST: 'https://jd-m-dev.ezrpro.com/api',
@@ -11,6 +10,6 @@ const typeObj = {
         API_HOST: 'https://jd-m-tp.ezrpro.com/api',
     },
 }
-const host = typeObj[process.env.TARO_APP_BUILD_TYPE]
+const host = typeObj[process.env.TARO_APP_BUILD_TYPE || 'TP']
 
 export default host

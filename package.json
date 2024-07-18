@@ -11,7 +11,6 @@
 	},
 	"scripts": {
 		"build:weapp": "taro build --type weapp --mode tp",
-		"build:weapp.dev": "taro build --type weapp --mode dev",
 		"build:weapp.q1": "taro build --type weapp --mode q1",
 		"build:weapp.tp": "taro build --type weapp --mode tp",
 		"build:swan": "taro build --type swan",
@@ -23,7 +22,7 @@
 		"build:jd": "taro build --type jd",
 		"build:quickapp": "taro build --type quickapp",
 		"build:harmony-hybrid": "taro build --type harmony-hybrid",
-		"dev:weapp": "npm run build:weapp.dev -- --watch",
+		"dev:weapp": "npm run build:weapp.q1 -- --watch",
 		"dev:swan": "npm run build:swan -- --watch",
 		"dev:alipay": "npm run build:alipay -- --watch",
 		"dev:tt": "npm run build:tt -- --watch",
