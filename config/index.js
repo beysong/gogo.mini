@@ -24,7 +24,7 @@ export default defineConfig(async (merge, { command, mode }) => {
     copy: {
       patterns: [
         {
-          from: `src/ext.${process.env.TARO_ENV}.json`,
+          from: `src/ext.json`,
           to: `dist/ext.json`,
         },
         {

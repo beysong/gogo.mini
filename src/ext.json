@@ -1,20 +1,4 @@
 {
-  "extEnable": true,
   "extAppid": "wx0540cca36c22cc9e",
-  "directCommit": false,
-  "ext": {
-    "name": "wechat",
-    "attr": {
-      "host": "open.weixin.qq.com",
-      "users": [
-        "user_1",
-        "user_2"
-      ]
-    }
-  },
-  "extPages": {
-    "pages/logs/logs": {
-      "navigationBarTitleText": "logs"
-    }
-  }
+  "extEnable": true
 }
