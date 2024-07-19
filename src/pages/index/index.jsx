@@ -14,6 +14,7 @@ export default function Index() {
 
   useLoad(() => {
     console.log('Page loaded.')
+    Taro.redirectTo({ url: '/pages/addFriend/index' })
   })
 
   console.log('Page render.', loading)

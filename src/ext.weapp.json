@@ -1,5 +1,6 @@
 {
   "extAppid": "wx0540cca36c22cc9e",
+  "directCommit": false,
   "extEnable": true,
   "recompile":true,
   "ext": {
