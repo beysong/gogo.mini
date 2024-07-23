@@ -28,11 +28,11 @@ export default function Index() {
     const { JDMerchantId, JdOrderId } = router.params;
     // const JDMerchantId = 50001;
     if (!JDMerchantId || !JdOrderId) {
-      Taro.showToast({
-        title: 'JDMerchantId或JdOrderId参数为空',
-        icon: 'none',
-        duration: 2000
-      });
+      // Taro.showToast({
+      //   title: 'JDMerchantId或JdOrderId参数为空',
+      //   icon: 'none',
+      //   duration: 2000
+      // });
       return;
     }
     getRule({ JDMerchantId, JdOrderId }).then(({ Result }) => {
@@ -51,8 +51,10 @@ export default function Index() {
       </View>
       <View className='imgWrap'>
         <Image src={defaultImg2} mode='widthFix' />
-        <View className='codeDesc'>长按二维码  加企微好友</View>
-        <View className='qrCode'><Image showMenuByLongpress src={defaultQrcode} mode='widthFix' /></View>
+        <View className='qrCode'>
+          <View><Image showMenuByLongpress src={defaultQrcode} mode='widthFix' /></View>
+          <View className='codeDesc'>长按二维码  加企微好友</View>
+        </View>
       </View>
       <View className='imgWrap'>
         <Image src={defaultImg3} mode='widthFix' />
