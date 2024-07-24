@@ -1,8 +1,8 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "taro-demo",
+  "projectname": "EZR.FE.JdCrmMulti.Mini",
   "description": "京东企微scrm",
-  "appid": "touristappid",
+  "appid": "wx0540cca36c22cc9e",
   "setting": {
     "urlCheck": true,
     "es6": false,
