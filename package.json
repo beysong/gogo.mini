@@ -1,8 +1,8 @@
 {
-	"name": "testtaro3.5",
+	"name": "EZR.FE.JdCrmMulti.Mini",
 	"version": "1.0.0",
 	"private": true,
-	"description": "",
+	"description": "京东企微scrm",
 	"templateInfo": {
 		"name": "default",
 		"typescript": false,
