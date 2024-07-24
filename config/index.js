@@ -20,14 +20,6 @@ const config = {
         from: `src/ext.json`,
         to: `dist/ext.json`,
       },
-      {
-        from: 'src/sitemap.json',
-        to: `dist/sitemap.json`,
-      },
-      {
-        from: 'project.private.config.json',
-        to: `dist/project.private.config.json`,
-      },
     ],
     options: {
     }
