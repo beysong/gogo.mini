@@ -1,5 +1,5 @@
 {
-  "miniprogramRoot": "dist/",
+  "miniprogramRoot": "./dist",
   "projectname": "EZR.FE.JdCrmMulti.Mini",
   "description": "京东企微scrm",
   "appid": "wx0540cca36c22cc9e",
